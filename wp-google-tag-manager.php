@@ -1,10 +1,10 @@
 <?php
 /**
  *
- * Plugin Name: WP Google Tag Manager
+ * Plugin Name: WP Google Tag Manager (CF modified)
  * Plugin URI: http://wordpress.org/extend/plugins/wp-google-tag-manager/
  * Description: Include code snippets from Google Tag Manager (google.com/tagmanager)
- * Version: 1.1
+ * Version: 1.1.0
  * Author: conlabzgmbh
  * Author URI: http://conlabz.de
  * License: GPLv2 or later
@@ -201,7 +201,7 @@ class WpGoogleTagManager {
     ?>
 <!-- Google Tag Manager -->
 <noscript><iframe src="//www.googletagmanager.com/ns.html?id=<?php echo $this->container_id; ?>"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

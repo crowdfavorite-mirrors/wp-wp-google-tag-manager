@@ -2,7 +2,7 @@
 Contributors: conlabzgmbh
 Tags: google, tag, manager, tags, tagmanager, snippet, code
 Tested up to: 3.4
-Stable tag: 1.1
+Stable tag: 1.1.0
 Requires at least: 3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -60,6 +60,9 @@ $wp_google_tag_manager->output_manual();
 
 = 1.1 =
 * Added possibility to place tag manager code manually in themes, see description
+
+= 1.1.0 =
+* CF - set a title for the iframe for 508 compliance
 
 == Installation ==
 1. Upload folder `wp_google_tag_manager` into `/wp-content/plugins/` directory
